@@ -1,0 +1,3 @@
+The flag you are searching for is:
+
+lfgaa{tsresi_kniihibsts_roor}w

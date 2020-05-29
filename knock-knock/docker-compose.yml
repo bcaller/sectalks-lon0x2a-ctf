@@ -1,0 +1,11 @@
+version: "3"
+services:
+  knockd:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    network_mode: "host"
+    privileged: true
+    restart: always
+    environment:
+      - KNOCK_FLAG=flag{wh0s_tH3re_00}

@@ -1,0 +1,14 @@
+:noremap : i
+:noremap! : i
+
+:noremap Q i
+:noremap! Q i
+
+:noremap a i
+:noremap! a i
+
+:noremap C i
+:noremap! C i
+
+:noremap p i
+:noremap! p i

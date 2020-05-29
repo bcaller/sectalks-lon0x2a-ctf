@@ -1,0 +1,11 @@
+version: "3"
+services:
+  vimq:
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+      args:
+        - VIM_FLAG=flag{sword_goads_endeavour}
+    restart: always
+    ports:
+      - "61123:23"
